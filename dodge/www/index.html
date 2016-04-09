@@ -1,0 +1,18 @@
+<!doctype>
+<html>
+  <head>
+    <title>Dodge</title>
+
+  </head>
+
+  <body>
+    <script src="js/phaser.js"></script>
+    <script src="js/play.js"></script>
+    <script>
+      var game = new Phaser.Game(320,568);
+      game.state.add('play', DogeDodge.Play);
+      game.state.start('play');
+    </script>
+  </body>
+</html>
+
